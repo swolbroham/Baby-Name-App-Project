@@ -84,4 +84,3 @@ babynames['rank_in_year'] = (babynames.groupby(['year','sex'])['count'].rank(asc
 #The output should be a column of babynames called 'rank_in_year'
 #Calculate rank in year by grouping babynames by 'year' and then 'sex'
 #Then calculate the rank() of 'count' where ascending=False
-
